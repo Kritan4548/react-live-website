@@ -1,13 +1,114 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/*body{
+  background-color: #b4f2e1;
+  box-sizing: border-box;
+  margin:0;
+  padding:0%; 
+  font-family:"Josefin Sans",sans-serif;}
+.div{
+  width:100%;
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -30px;}
+  h1 {
+padding:20px 20px;
+background-color:#ffe9c5 ;
+color:#fa9191;
+border-radius: 20px;
+  }
+  span{
+    color:#eb6383;
+  }*/  
+  /*.heading_style{
+    padding: 30px 0;
+    text-align:center;
+    font-family: "Raleway",sans-serif;
+    text-transform: uppercase;
+    font-size:13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    background-color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+.slot_inner{
+  text-align: center;}*/
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button{
+min-height:40px;
+width: 40px;
+background-color:#8566aa;
+color:#fff;
+border-color: transparent;
+font-size: 40px;
+border: none;
+outline: none;
+margin-left: 10px;
+box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+button:hover{
+  background-color: #20bf6b;
+}
+/*div{
+  width: 100%;
+  height: 100vh;
+  background:#8e44ad;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}*/
+h1{
+  color:white;
+  background: transparent;
+  /*text-shadow: 0 2px 2px black;*/
+  background-color: #8566aa;
+  padding: 6px 0 2px 0;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+
+}
+.main-box{
+  width:100%;
+  height:100vh;
+  background:#6983aa;
+  display:flex;
+  flex-direction: row;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.center-box{
+  width:25%;
+  height: 80vh;
+  background-color: #f4f4f4;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+input{
+  text-align: center;
+  height: 30px;
+  top: 10px;
+  border:none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width: 60%;
+  border-bottom: 2px solid #8566aa;
+  outline: none;
+}
+ol{
+margin-top: 30px;
+}
+ol li {
+  padding-left: 0px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color:#8566aa;
+  text-transform: capitalize;
 }
